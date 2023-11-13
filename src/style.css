@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #19720f;
+  margin-top: 200px;
+}
+.card {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.signo-abajo {
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+span {
+  font-size: 100px;
+}
+
+p {
+  font-size: 100px;
+}
+
+/*
+.signo-abajo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+*/
